@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: url("../image/background.jpg"), rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+  min-height:100vh;
+}
+
+footer {
+	background: #e4a3c5;
+	height: 20px; 
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px; 
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 25px;
+  background: #43464B;
+  text-align: center;
+  padding-top: 5px;
+  color: #fff;
+}
+
+.welcome {
+	color: #fff;
+	padding-top: 50vh;
+	padding-left:50vh;
+}
