@@ -1,5 +1,12 @@
+/* Hiding scrollbar*/
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -7,6 +14,7 @@ header {
   background-blend-mode: darken;
   min-height:100vh;
   background-size: cover;
+  background-position: center;
 }
 
 footer {
@@ -17,26 +25,61 @@ footer {
 .container {
   width: 100%;
   max-width: 1024px; 
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
   overflow: hidden;
   position: fixed;
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  height: 25px;
-  background: #43464B;
-  text-align: center;
+  top: 0;
+  width: 100%; 
+  height: auto;
+  background: rgba(101, 83, 83, 0.5);
   padding-top: 5px;
   color: #fff;
+  font-size: 24px;
+  padding-bottom: 5px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .welcome {
 	color: #fff;
-	padding-top: 50vh;
-	padding-left:50vh;
+	padding-top: 35vh;
+  text-align: center;
+}
+
+
+.navbar ul {
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  font-size: 0.8em;
+}
+
+.navbar li {
+  display: inline;
+  width:25%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #888;
+}
+
+a:active {
+  color: rgb(101, 83, 83);
+}
+
+.godown {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  font-size: 0.8em;
 }
