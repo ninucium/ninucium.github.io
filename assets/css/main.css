@@ -7,6 +7,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-size: 1em;
 }
 
 header {
@@ -39,7 +40,7 @@ footer {
   background: rgba(101, 83, 83, 0.5);
   padding-top: 5px;
   color: #fff;
-  font-size: 24px;
+  font-size: 3em;
   padding-bottom: 5px;
   font-family: 'Alegreya Sans', sans-serif;
 }
