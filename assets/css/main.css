@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 header {
@@ -40,7 +40,7 @@ footer {
   background: rgba(101, 83, 83, 0.5);
   padding-top: 5px;
   color: #fff;
-  font-size: 3em;
+  font-size: 50px;
   padding-bottom: 5px;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -56,7 +56,7 @@ footer {
   list-style: none;
   margin: 0 auto;
   display: flex;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .navbar li {
