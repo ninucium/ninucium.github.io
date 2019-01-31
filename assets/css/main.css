@@ -4,6 +4,7 @@
     display: none; 
 }
 
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -27,7 +28,7 @@ footer {
   width: 100%;
   max-width: 1024px; 
   padding: 0 15px 0 15px;
-  margin: 0 auto;
+/*  margin: 0 auto;*/
   height: 100%;
 }
 
@@ -40,15 +41,19 @@ footer {
   background: rgba(101, 83, 83, 0.5);
   padding-top: 5px;
   color: #fff;
-  font-size: 50px;
+  font-size: 20px;
   padding-bottom: 5px;
-  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .welcome {
+	position: absolute;
 	color: #fff;
-	padding-top: 35vh;
-  text-align: center;
+	top: 50%;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	font-size: 3em;
+	left: 50%;
+  	text-align: center;
+  	transform: translate(-50%, -50%);
 }
 
 
@@ -81,6 +86,23 @@ a:active {
 .godown {
   position: absolute;
   bottom: 10px;
+  font-size: 0.9em;
   left: 50%;
-  font-size: 0.8em;
+  transform: translate(-50%, -50%);
+}
+
+.about {
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.about h1 {
+}
+
+img {
+  float: left;
+  border-style: solid;
+  border-color: rgba(101, 83, 83,0.5);
+  border-width: 1px;
+  margin-right: 50px;
 }
