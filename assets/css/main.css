@@ -81,10 +81,9 @@ a:hover {
   list-style: none;
   margin: 0 auto;
   display: flex;
-  font-size: 1em;
-  padding-inline-start: 0px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  font-size: 0.8em;
+  padding-inline-start: 0;
+  padding-inline-end: 5%;
 
 }
 
