@@ -25,10 +25,8 @@ footer {
 }
 
 .container {
-  /*width: 100%;*/
   max-width: 1024px; 
   padding: 0 15px 0 15px;
-/*  margin: 0 auto;*/
   height: 100%;
 }
 
@@ -86,23 +84,20 @@ a:active {
 .godown {
   position: absolute;
   bottom: 10px;
-  font-size: 0.9em;
   left: 50%;
-  transform: translate(-50%, -50%);
+  align-items: center;
 }
+
 
 .about {
 	padding-top: 50px;
 	padding-left: 100px;
 }
 
-.about h1 {
-}
-
-img {
+.about img {
   float: left;
   border-style: solid;
   border-color: rgba(101, 83, 83,0.5);
-  border-width: 1px;
+  border-width: 2px;
   margin-right: 50px;
 }
