@@ -12,7 +12,11 @@ html {
 
 body {
   margin: 0;
+<<<<<<< HEAD
   font-size: 1em;
+=======
+  font-size: 20spx;
+>>>>>>> 012beccb38189260535db6698a790e2a61f48c6d
   font-family: 'Roboto', sans-serif;
 }
 
@@ -50,7 +54,7 @@ a:hover {
 
 .container {
   /*max-width: 1024px; */
-  padding: 0 15px 0 15px;
+  padding: 0 2% 0 2%;
   height: 100%;
 }
 
@@ -59,7 +63,11 @@ a:hover {
   color: #fff;
   top: 50%;
   font-family: 'PT Sans Narrow', sans-serif;
+<<<<<<< HEAD
   font-size: 2em;
+=======
+  font-size: 1.5em;
+>>>>>>> 012beccb38189260535db6698a790e2a61f48c6d
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -72,10 +80,15 @@ a:hover {
   width: 100%; 
   height: auto;
   background: rgba(101, 83, 83, 0.5);
-  padding-top: 5px;
+  padding-top: 1%;
   color: #fff;
+<<<<<<< HEAD
   font-size: 120%;
   padding-bottom: 5px;
+=======
+  font-size: 20px;
+  padding-bottom: 1%;
+>>>>>>> 012beccb38189260535db6698a790e2a61f48c6d
   z-index: 9999;
 }
 
@@ -119,8 +132,13 @@ a:hover {
 
 
 .about {
+<<<<<<< HEAD
 	padding-top: 50px;
 	padding-left: 70px;
+=======
+	padding-top: 10%;
+	padding-left: 7%;
+>>>>>>> 012beccb38189260535db6698a790e2a61f48c6d
   padding-bottom: 50px;
 }
 
@@ -135,11 +153,19 @@ a:hover {
 
 .about h1 {
   color: rgb(78, 63, 63);
+<<<<<<< HEAD
   font-size: 1.8em;
 }
 
 .about .text {
   padding: 0 70px 0 0; 
+=======
+  font-size: 1.5em
+}
+
+.about .text {
+  padding: 0 7% 0 0; 
+>>>>>>> 012beccb38189260535db6698a790e2a61f48c6d
   text-align: justify;
 }
 
