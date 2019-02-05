@@ -3,6 +3,10 @@
     display: none; 
 }
 
+
+html {
+  font-min-size: 10px;
+}
 body {
   margin: 0;
   font-size: 20px;
