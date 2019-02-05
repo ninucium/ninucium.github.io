@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-size: 25px;
+  font-size: 20spx;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -45,7 +45,7 @@ a:hover {
 
 .container {
   /*max-width: 1024px; */
-  padding: 0 15px 0 15px;
+  padding: 0 2% 0 2%;
   height: 100%;
 }
 
@@ -54,7 +54,7 @@ a:hover {
   color: #fff;
   top: 50%;
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -67,10 +67,10 @@ a:hover {
   width: 100%; 
   height: auto;
   background: rgba(101, 83, 83, 0.5);
-  padding-top: 5px;
+  padding-top: 1%;
   color: #fff;
   font-size: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 1%;
   z-index: 9999;
 }
 
@@ -78,7 +78,7 @@ a:hover {
   list-style: none;
   margin: 0 auto;
   display: flex;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 .navbar li {
@@ -113,8 +113,8 @@ a:hover {
 
 
 .about {
-	padding-top: 50px;
-	padding-left: 100px;
+	padding-top: 10%;
+	padding-left: 7%;
   padding-bottom: 50px;
 }
 
@@ -129,10 +129,11 @@ a:hover {
 
 .about h1 {
   color: rgb(78, 63, 63);
+  font-size: 1.5em
 }
 
 .about .text {
-  padding: 0 100px 0 0; 
+  padding: 0 7% 0 0; 
   text-align: justify;
 }
 
