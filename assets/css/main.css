@@ -7,8 +7,8 @@
 
 body {
   margin: 0;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
 }
 
 header {
@@ -20,14 +20,44 @@ header {
 }
 
 footer {
-	background: #e4a3c5;
-	height: 20px; 
+	background: #322626;
+	height: 100px; 
+}
+
+footer p {
+  color: #b6b2b2;
+  font-size: 0.6em;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 50px;
+  text-align: center;
+}
+
+a{
+  color: #41a0c5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
 }
 
 .container {
-  max-width: 1024px; 
+  /*max-width: 1024px; */
   padding: 0 15px 0 15px;
   height: 100%;
+}
+
+.welcome {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 3em;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 .navbar {
@@ -41,25 +71,14 @@ footer {
   color: #fff;
   font-size: 20px;
   padding-bottom: 5px;
+  z-index: 9999;
 }
-
-.welcome {
-	position: absolute;
-	color: #fff;
-	top: 50%;
-  	font-family: 'Source Sans Pro', sans-serif;
-  	font-size: 3em;
-	left: 50%;
-  	text-align: center;
-  	transform: translate(-50%, -50%);
-}
-
 
 .navbar ul {
   list-style: none;
   margin: 0 auto;
   display: flex;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .navbar li {
@@ -68,16 +87,16 @@ footer {
   text-align: center;
 }
 
-a {
+.navbar a {
   text-decoration: none;
   color: #fff;
 }
 
-a:hover {
+.navbar a:hover {
   color: #888;
 }
 
-a:active {
+.navbar a:active {
   color: rgb(101, 83, 83);
 }
 
@@ -88,10 +107,15 @@ a:active {
   align-items: center;
 }
 
+.arrow img {
+  width: 40px;
+}
+
 
 .about {
 	padding-top: 50px;
 	padding-left: 100px;
+  padding-bottom: 50px;
 }
 
 .about img {
@@ -100,4 +124,27 @@ a:active {
   border-color: rgba(101, 83, 83,0.5);
   border-width: 2px;
   margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  color: rgb(78, 63, 63);
+}
+
+.about .text {
+  padding: 0 100px 0 0; 
+  text-align: justify;
+}
+
+.about .arrow img {
+  color: none;
+  border: none;
+}
+
+.example {
+  background: url("../image/background_examples.jpg"), rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+  min-height:100vh;
+  background-size: cover;
+  background-position: center;
 }
