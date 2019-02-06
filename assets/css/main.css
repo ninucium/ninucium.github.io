@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background: url("../image/background.jpg"), rgba(0,0,0,0.5);
+  background: url("../image/background.jpg"), rgba(37, 31, 31, 0.5);
   background-blend-mode: darken;
   min-height:100vh;
   background-size: cover;
@@ -28,7 +28,7 @@ footer {
 }
 
 footer p {
-  color: #b6b2b2;
+  color: #d8d8d8;
   font-size: 0.7em;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 300;
@@ -97,9 +97,16 @@ a:hover {
 
 .godown {
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 50%;
-  align-items: center;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  padding-bottom: 40px;
 }
 
 .arrow img {
@@ -108,11 +115,16 @@ a:hover {
 
 
 .about {
-
 	padding-top: 50px;
-	padding-left: 7%;
-  padding-bottom: 50px;
+	/*padding-left: 7%;*/
+  padding-bottom: 70px;
 }
+
+.about .my-flex-container{
+  display: flex;
+  justify-content: center;
+}
+
 
 .about img {
   float: left;
@@ -139,7 +151,7 @@ a:hover {
 }
 
 .example {
-  background: url("../image/background_examples.jpg"), rgba(0,0,0,0.5);
+  background: url("../image/background_examples.jpg"), rgba(37, 31, 31, 0.5);
   background-blend-mode: darken;
   min-height:100vh;
   background-size: cover;
