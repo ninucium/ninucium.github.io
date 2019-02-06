@@ -128,11 +128,13 @@ a:hover {
 
 .about img {
   float: left;
-  border-style: solid;
+  outline: 2px solid rgba(101, 83, 83,0.5);
+  outline-offset: -2px;
+  /*border-style: solid;
+  box-sizing: border-box;
   border-color: rgba(101, 83, 83,0.5);
-  border-width: 2px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  border-width: 2px;*/
+  margin: 20px 7% 6% 7%;
 }
 
 .about h1 {
@@ -141,8 +143,12 @@ a:hover {
 }
 
 .about .text {
-  padding: 0 7% 0 0; 
+  padding: 0 7% 0 7%; 
   text-align: justify;
+}
+
+.about .text p {
+  margin: 15px 0 15px 0;
 }
 
 .about .arrow img {
