@@ -63,6 +63,11 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+.my-flex-container{
+  display: flex;
+  justify-content: space-around;
+}
+
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -75,26 +80,6 @@ a:hover {
   font-size: 20px;
   padding-bottom: 1%;
   z-index: 9999;
- 
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0 auto;
-  display: flex;
-  font-size: 0.8em;
-  /*
-  padding-inline-start: 0;
-  padding-inline-end: 5%;
-  */
-  padding-inline-start: 0px;
-}
-
-
-.navbar li {
-  display: inline;
-  width:23%;
-  text-align: center;
 }
 
 .navbar a {
