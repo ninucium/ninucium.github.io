@@ -182,7 +182,7 @@ a:hover {
   border-radius: 25px 25px 0px 0px;
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(83, 94, 94, 1);
-  padding: 20px;
+  padding: 10px 20px;
   width: 100%;
   text-align: center;
   vertical-align: top;
@@ -214,5 +214,5 @@ a:hover {
 }
 
 .middle {
-  margin: 0 15%;
+  margin: 0 33%;
 }
