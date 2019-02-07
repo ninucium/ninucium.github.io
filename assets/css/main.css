@@ -6,6 +6,7 @@
 
 html {
   font-min-size: 10px;
+  overflow-x:hidden;
 }
 
 body {
