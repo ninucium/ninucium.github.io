@@ -164,6 +164,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   z-index: -98;
+  overflow-x: hidden;
 }
 
 .example .text {
