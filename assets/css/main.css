@@ -183,7 +183,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(83, 94, 94, 1);
   padding: 10px 20px;
-  width: 100%;
+  width: 100vh;
   text-align: center;
   vertical-align: top;
   margin: 0 0 0 0;
@@ -196,7 +196,7 @@ a:hover {
   top: -2px;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px; 
-  width: 100%;
+  width: 100vh;
   text-align: center;
   vertical-align: top;
 }
